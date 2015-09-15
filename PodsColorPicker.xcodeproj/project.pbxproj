@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		18F44D3A1BA80F4F0025A82B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F44D391BA80F4F0025A82B /* main.m */; };
 		18F44D3D1BA80F4F0025A82B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F44D3C1BA80F4F0025A82B /* AppDelegate.m */; };
-		18F44D401BA80F4F0025A82B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F44D3F1BA80F4F0025A82B /* ViewController.m */; };
 		18F44D431BA80F4F0025A82B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F44D411BA80F4F0025A82B /* Main.storyboard */; };
 		18F44D451BA80F4F0025A82B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F44D441BA80F4F0025A82B /* Images.xcassets */; };
 		18F44D481BA80F4F0025A82B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F44D461BA80F4F0025A82B /* LaunchScreen.xib */; };
 		18F44D541BA80F500025A82B /* PodsColorPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F44D531BA80F500025A82B /* PodsColorPickerTests.m */; };
 		18F44D5E1BA80F850025A82B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 18F44D5D1BA80F850025A82B /* Podfile */; };
+		18F44D641BA81CE90025A82B /* ColorMeNowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F44D631BA81CE90025A82B /* ColorMeNowVC.m */; };
 		587C9DA06BE8794EE6D4DFF8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3AEDBCDD553CBDBFB3457 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -34,8 +34,6 @@
 		18F44D391BA80F4F0025A82B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18F44D3B1BA80F4F0025A82B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F44D3C1BA80F4F0025A82B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18F44D3E1BA80F4F0025A82B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18F44D3F1BA80F4F0025A82B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		18F44D421BA80F4F0025A82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18F44D441BA80F4F0025A82B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		18F44D471BA80F4F0025A82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -43,6 +41,8 @@
 		18F44D521BA80F500025A82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F44D531BA80F500025A82B /* PodsColorPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodsColorPickerTests.m; sourceTree = "<group>"; };
 		18F44D5D1BA80F850025A82B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		18F44D621BA81CE90025A82B /* ColorMeNowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorMeNowVC.h; sourceTree = "<group>"; };
+		18F44D631BA81CE90025A82B /* ColorMeNowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorMeNowVC.m; sourceTree = "<group>"; };
 		222E0DF98A0E65345837665B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B24EF834989320491590A2E4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CBE3AEDBCDD553CBDBFB3457 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,9 +92,9 @@
 			children = (
 				18F44D3B1BA80F4F0025A82B /* AppDelegate.h */,
 				18F44D3C1BA80F4F0025A82B /* AppDelegate.m */,
-				18F44D3E1BA80F4F0025A82B /* ViewController.h */,
-				18F44D3F1BA80F4F0025A82B /* ViewController.m */,
 				18F44D5D1BA80F850025A82B /* Podfile */,
+				18F44D621BA81CE90025A82B /* ColorMeNowVC.h */,
+				18F44D631BA81CE90025A82B /* ColorMeNowVC.m */,
 				18F44D411BA80F4F0025A82B /* Main.storyboard */,
 				18F44D441BA80F4F0025A82B /* Images.xcassets */,
 				18F44D461BA80F4F0025A82B /* LaunchScreen.xib */,
@@ -282,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F44D401BA80F4F0025A82B /* ViewController.m in Sources */,
+				18F44D641BA81CE90025A82B /* ColorMeNowVC.m in Sources */,
 				18F44D3D1BA80F4F0025A82B /* AppDelegate.m in Sources */,
 				18F44D3A1BA80F4F0025A82B /* main.m in Sources */,
 			);
